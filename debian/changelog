@@ -1,0 +1,5 @@
+znc-clientbuffer (0.0.0) stable; urgency=medium
+
+  * Initial release
+
+ -- Vincent Duvert <packaging@duvert.net>  Sat, 02 Oct 2021 11:25:00 +0200

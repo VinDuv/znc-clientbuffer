@@ -26,3 +26,11 @@
 *.exe
 *.out
 *.app
+
+# Debian packaging output
+/debian/.debhelper
+/debian/debhelper-build-stamp
+/debian/files
+/debian/znc-clientbuffer.debhelper.log
+/debian/znc-clientbuffer.substvars
+/debian/znc-clientbuffer/

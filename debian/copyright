@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: znc-clientbuffer
+Upstream-Contact: Vincent Duvert <vincent@duvert.net>
+Source: <https://github.com/VinDuv/znc-clientbuffer>
+
+Files: *
+Copyright: 2014-2015 J-P Nurmi
+           2017-2018, 2021 Vladimir Panteleev and contributors
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2021 Vincent Duvert <vincent@duvert.net>
+License: Apache-2.0
+
+License: Apache-2.0
+ On Debian systems, the complete text of the Apache-2.0 can be found in the
+ file /usr/share/common-licenses/Apache-2.0.

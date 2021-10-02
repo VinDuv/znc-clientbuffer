@@ -1,0 +1,18 @@
+Source: znc-clientbuffer
+Priority: optional
+Maintainer: Vincent Duvert <packaging@duvert.net>
+Build-Depends: debhelper-compat (= 12), znc-dev
+Standards-Version: 4.5.1
+Section: libs
+Homepage: https://github.com/VinDuv/znc-clientbuffer
+Vcs-Browser: https://github.com/VinDuv/znc-clientbuffer
+Vcs-Git: https://github.com/VinDuv/znc-clientbuffer.git
+Rules-Requires-Root: no
+
+Package: znc-clientbuffer
+Architecture: any
+Multi-Arch: same
+Depends: znc (>= 1.6.0), ${shlibs:Depends}, ${misc:Depends}
+Description: ZNC client buffer
+ This ZNC plugin manage a per-client buffer, allowing multiple clients
+ connected to a single user to all receive all messages.
